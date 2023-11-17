@@ -1,0 +1,24 @@
+Done: - simulate for schedule app
+      - clear about input, output of both model and a simulator example
+
+Not yet: - training process of model (need more time to research ...)
+
+-------------------------------------------------------------------------------------
+input model: ...
+output model: ra, rb, rc, rd, fa, fb, fc, fd (policy when init new word's state)
+	      ivl-1, ivl-.... (policy when process reviewed word's state)
+-------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------
+simulator app:
+input: word and it's difficulty
+learner:
+	each day learn word: new words and reviewed words
+	bot will update: difficulty, next day to review, p_recall, 
+			 halflife (related to the strength of memory),
+			 r_history, t_history,
+			 and some which is not really important
+	      --> update whenever the learner complete to review a word
+	      --> feature: realtime
+-------------------------------------------------------------------------------------
+

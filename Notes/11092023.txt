@@ -1,0 +1,22 @@
+Dataset maimemo:
+	*The logs are uploaded to the remote after the learner has completed all the reviews for the day
+	- format of a record: u, w, t, r
+		-- u: id of user
+		-- w: word
+		-- t: time that user meets the word w
+		-- r: 0 if user forgets and 1 otherwise
+	--> analysis (status: ok)
+	--> preprocessing ETL (status: ok)
+	--> train model (status: not yet, being in process to reivew)
+
+Model (status: not yet, being in process to reivew):
+	- Data input:
+		-- a record's format: Difficulty-Halflife-P(recall) --> DHP model
+		Difficulty: user choose
+		Halflife-P: can be calculate from r, t\
+
+Problem: What is the output of DHP model?
+
+link: 
+https://dl.acm.org/doi/pdf/10.1145/3534678.3539081
+https://github.com/maimemo/SSP-MMC-Plus

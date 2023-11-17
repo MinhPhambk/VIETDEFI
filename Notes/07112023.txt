@@ -1,0 +1,22 @@
+SuperMemo algorithm:
+- v2: https://super-memory.com/english/ol/sm2.htm
+- v18: https://supermemo.guru/wiki/Algorithm_SM-18
+
+FSRS: 
+- Spaced Repetition Scheduling: https://dl.acm.org/doi/10.1145/3534678.3539081?cid=99660547150
+- FSRS v4 (javascript): https://github.com/open-spaced-repetition/fsrs4anki/wiki/The-Algorithm
+- paper of FSRS: https://dl.acm.org/doi/pdf/10.1145/3534678.3539081
+
+**Summerize:
+To learn something new --> Spaced Repetition Scheduling 
+	--> How to optimize?
+		--> SuperMemo 
+		--> FSRS (other optimization algorithm like SuperMemo)
+	--> Choose?
+		--> SuperMemo: undefined the format of input between v2 and v18 , open source is written in unknwow language (Swift, Go, ..)
+			--> Seem difficult to demo
+		--> FSRS: a demo founded and clearly input, output
+
+**Be doing and will do next:
+- Read function demo of FSRS --> demo --> to extract how a card was recalled to learn by time
+- Try to improve (not really confident, need to time to research)
